@@ -1,6 +1,6 @@
 ---
 name: Chore
-description: For maintenance, refactoring, or other non-feature/non-bug tasks
+about: For maintenance, refactoring, or other non-feature/non-bug tasks
 title: '<short description>'
 labels: chore
 assignees: ''

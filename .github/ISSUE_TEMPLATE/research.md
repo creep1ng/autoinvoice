@@ -1,6 +1,6 @@
 ---
 name: Research Task
-description: Propose or document a research-related task or investigation
+about: Propose or document a research-related task or investigation
 title: '<short description>'
 labels: research
 assignees: ''

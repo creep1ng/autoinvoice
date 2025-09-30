@@ -1,6 +1,6 @@
 ---
 name: Epic
-description: Track a large body of work that can be broken down into smaller tasks
+about: Track a large body of work that can be broken down into smaller tasks
 title: '<short description>'
 labels: epic
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: Documentation Update
-description: Suggest changes or additions to documentation
+about: Suggest changes or additions to documentation
 title: '<short description>'
 labels: documentation
 assignees: ''
