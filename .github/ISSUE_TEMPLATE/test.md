@@ -1,6 +1,6 @@
 ---
 name: Test Task
-description: Propose or document a testing-related task or improvement
+about: Propose or document a testing-related task or improvement
 title: '<short description>'
 labels: test
 assignees: ''
