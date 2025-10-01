@@ -6,28 +6,43 @@
     "service": "api",
     "workspaceFolder": "/workspace",
     "shutdownAction": "none",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": false
+        }
+    },
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "/usr/local/bin/python",
-                "python.formatting.provider": "black",
-                "editor.formatOnSave": true,
+                "python.defaultInterpreterPath": "/workspace/.venv/bin/python",
+                "[python]": {
+                    "editor.formatOnSave": true,
+                    "editor.codeActionsOnSave": {
+                        "source.fixAll": "explicit",
+                        "source.organizeImports": "explicit"
+                    }
+                },
+                "ruff.configuration": "./pyproject.toml",
+                "ruff.lint.enable": true,
+                "ruff.format.enable": true,
                 "cSpell.enabled": true
             },
             "extensions": [
                 "ms-python.python",
                 "ms-python.vscode-pylance",
+                "charliermarsh.ruff",
                 "streetsidesoftware.code-spell-checker",
-                "GitHub.copilot",
-                "ms-python.black-formatter"
+                "GitHub.copilot"
             ]
         }
     },
-    "postCreateCommand": "pip install -r requirements.txt || true",
+    "postCreateCommand": "uv sync --dev",
     "forwardPorts": [
         8000
     ],
     "remoteEnv": {
-        "PYTHONUNBUFFERED": "1"
+        "PYTHONUNBUFFERED": "1",
+        "UV_PROJECT_ENVIRONMENT": "/workspace/.venv"
     }
 }
