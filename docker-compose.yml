@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  api:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - .:/workspace:cached
+    environment:
+      - POSTGRES_HOST=db
+      - POSTGRES_USER=autoinvoice
+      - POSTGRES_PASSWORD=autoinvoice
+      - POSTGRES_DB=autoinvoice
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    command: sleep infinity
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: autoinvoice
+      POSTGRES_PASSWORD: autoinvoice
+      POSTGRES_DB: autoinvoice
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
