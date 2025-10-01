@@ -3,7 +3,14 @@ name = "autoinvoice"
 version = "0.1.0"
 description = "PDF invoice processor with LLM extraction"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "alembic>=1.16.5",
+    "fastapi[standard]>=0.118.0",
+    "langchain>=0.3.27",
+    "psycopg>=3.2.10",
+    "pytest>=8.4.2",
+    "sqlalchemy>=2.0.43",
+]
 
 [project.optional-dependencies]
 dev = [
