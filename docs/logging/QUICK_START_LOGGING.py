@@ -247,6 +247,6 @@ LOG_FILE=logs/autoinvoice.log
 # ============================================================================
 
 # For more details, see:
-# - docs/LOGGING.md - Complete documentation
+# - docs/logging/LOGGING.md - Complete documentation
 # - examples/logging_examples.py - Working examples
 # - examples/fastapi_example.py - FastAPI integration

@@ -20,7 +20,7 @@ Robust logging is critical for debugging, monitoring, and observability. The pro
 - Provide utilities in `src/utils/logger.py`.
 - Support both JSON and colored text log formats.
 - Integrate logging with FastAPI middleware.
-- Document logging in `docs/LOGGING.md` and provide usage examples.
+- Document logging in `docs/logging/LOGGING.md` and provide usage examples.
 
 ## Consequences
 - Consistent, structured logs for all components.
@@ -30,4 +30,4 @@ Robust logging is critical for debugging, monitoring, and observability. The pro
 ## References
 - [src/config/logging_config.py]
 - [src/utils/logger.py]
-- [docs/LOGGING.md]
+- [docs/logging/LOGGING.md]

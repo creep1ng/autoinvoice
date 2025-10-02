@@ -195,7 +195,7 @@ class InvoiceProcessor(LoggerMixin):
 
 ## Configuration Reference
 
-See [SETTINGS.md](./SETTINGS.md) for complete settings documentation.
+See [../settings/SETTINGS.md](../settings/SETTINGS.md) for complete settings documentation.
 
 ### Log Levels
 
@@ -209,7 +209,7 @@ Set via `LOG_LEVEL` environment variable:
 
 ### Settings Class
 
-All logging configuration is in `src/config/settings.py` (see [SETTINGS.md](./SETTINGS.md) for details):
+All logging configuration is in `src/config/settings.py` (see [../settings/SETTINGS.md](../settings/SETTINGS.md) for details):
 
 ```python
 from src.config import settings

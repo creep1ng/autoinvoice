@@ -15,9 +15,9 @@ A comprehensive logging foundation has been successfully implemented for the Aut
 6. **`src/api/middleware.py`** - FastAPI middleware for request logging and tracking
 
 ### Documentation & Examples
-7. **`docs/SETTINGS.md`** - Complete settings configuration guide
-8. **`docs/LOGGING.md`** - Complete logging guide with best practices
-9. **`docs/LOGGING_IMPLEMENTATION_SUMMARY.md`** - Quick reference of what was implemented
+7. **`docs/settings/SETTINGS.md`** - Complete settings configuration guide
+8. **`docs/logging/LOGGING.md`** - Complete logging guide with best practices
+9. **`docs/logging/LOGGING_IMPLEMENTATION_SUMMARY.md`** - Quick reference of what was implemented
 10. **`examples/settings_examples.py`** - Settings usage examples (tested and verified ✅)
 11. **`examples/logging_examples.py`** - Logging usage examples (tested and verified ✅)
 12. **`examples/fastapi_example.py`** - FastAPI integration example
@@ -189,8 +189,8 @@ async def startup():
 ## 📚 Documentation
 
 Complete documentation available in:
-- **`docs/SETTINGS.md`** - Complete settings configuration guide (NEW!)
-- **`docs/LOGGING.md`** - Full logging guide with examples and best practices
+- **`docs/settings/SETTINGS.md`** - Complete settings configuration guide (NEW!)
+- **`docs/logging/LOGGING.md`** - Full logging guide with examples and best practices
 - **`src/config/settings.py`** - Fully documented source code with inline examples
 
 ## 🔗 Integration Ready
@@ -223,7 +223,7 @@ The logging foundation is ready to integrate with:
 ## 🆘 Support
 
 For issues or questions:
-1. Check `docs/LOGGING.md` for detailed documentation
+1. Check `docs/logging/LOGGING.md` for detailed documentation
 2. Review `examples/` for working code samples
 3. Verify environment configuration in `.env`
 4. Test with example scripts to isolate issues

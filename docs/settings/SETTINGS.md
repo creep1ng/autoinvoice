@@ -593,6 +593,6 @@ else:
 
 ## Related Documentation
 
-- [Logging Configuration](./LOGGING.md)
+- [Logging Configuration](../logging/LOGGING.md)
 - [Database Setup](./DATABASE.md) *(to be created)*
 - [API Configuration](./API.md) *(to be created)*

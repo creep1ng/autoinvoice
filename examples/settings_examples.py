@@ -253,5 +253,5 @@ if __name__ == "__main__":
     example_all_settings()
 
     print("\n" + "=" * 60)
-    print("For more information, see: docs/SETTINGS.md")
+    print("For more information, see: docs/settings/SETTINGS.md")
     print("=" * 60)

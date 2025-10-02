@@ -19,7 +19,7 @@ Managing configuration via environment variables is essential for 12-factor apps
 - Use `pydantic-settings` for all configuration management.
 - Define settings in `src/config/settings.py`.
 - Provide `.env.example` for reference.
-- Document configuration in `docs/SETTINGS.md`.
+- Document configuration in `docs/settings/SETTINGS.md`.
 
 ## Consequences
 - Strongly-typed, validated configuration.
@@ -29,4 +29,4 @@ Managing configuration via environment variables is essential for 12-factor apps
 ## References
 - [src/config/settings.py]
 - [.env.example]
-- [docs/SETTINGS.md]
+- [docs/settings/SETTINGS.md]

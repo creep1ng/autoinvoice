@@ -23,7 +23,7 @@ Environment Configuration:
         POSTGRES_HOST=localhost
         OPENAI_API_KEY=sk-your-key-here
 
-For complete documentation, see: docs/SETTINGS.md
+For complete documentation, see: docs/settings/SETTINGS.md
 """
 
 from functools import lru_cache

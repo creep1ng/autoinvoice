@@ -6,7 +6,7 @@ Comprehensive documentation for the `settings.py` configuration system has been 
 
 ## 📚 Documentation Files
 
-### 1. **`docs/SETTINGS.md`** (NEW!)
+### 1. **`docs/settings/SETTINGS.md`** (NEW!)
 A complete 600+ line guide covering:
 - Overview and features
 - All available settings with descriptions
@@ -153,9 +153,9 @@ new_setting: str = Field(
 
 The documentation is now integrated across files:
 
-- `docs/LOGGING.md` → References `docs/SETTINGS.md` for configuration
-- `docs/SETTINGS.md` → References `docs/LOGGING.md` for logging setup
-- `src/config/settings.py` → Points to `docs/SETTINGS.md` in docstring
+- `docs/logging/LOGGING.md` → References `docs/settings/SETTINGS.md` for configuration
+- `docs/settings/SETTINGS.md` → References `docs/logging/LOGGING.md` for logging setup
+- `src/config/settings.py` → Points to `docs/settings/SETTINGS.md` in docstring
 - `examples/settings_examples.py` → Shows practical usage
 - `.env.example` → Template for all settings
 
@@ -174,17 +174,17 @@ The documentation is now integrated across files:
 
 ## 📦 Files Updated
 
-1. ✅ `docs/SETTINGS.md` - Created (complete guide)
+1. ✅ `docs/settings/SETTINGS.md` - Created (complete guide)
 2. ✅ `src/config/settings.py` - Enhanced with full documentation
 3. ✅ `examples/settings_examples.py` - Created with working examples
-4. ✅ `docs/LOGGING.md` - Updated to reference SETTINGS.md
-5. ✅ `docs/LOGGING_IMPLEMENTATION_SUMMARY.md` - Updated with settings info
+4. ✅ `docs/logging/LOGGING.md` - Updated to reference SETTINGS.md
+5. ✅ `docs/logging/LOGGING_IMPLEMENTATION_SUMMARY.md` - Updated with settings info
 
 ## 🚀 Usage
 
 To learn about settings:
 
-1. **Quick overview**: Read `docs/SETTINGS.md` introduction
+1. **Quick overview**: Read `docs/settings/SETTINGS.md` introduction
 2. **See examples**: Run `uv run python examples/settings_examples.py`
 3. **Explore code**: Open `src/config/settings.py` with inline docs
 4. **Try it**: Configure `.env` and access `settings` in your code
