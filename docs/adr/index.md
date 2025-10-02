@@ -9,10 +9,13 @@ This page lists all ADRs for the project. Each ADR documents a significant archi
 
 ## ADR List
 <!-- Add new ADRs below. Example format: -->
-| ID  | Title                | Status    | Date       | Link                |
-|-----|----------------------|-----------|------------|---------------------|
-| 001 | Example ADR Title    | accepted  | 2025-09-29 | [ADR-001](001.md)   |
-| ... | ...                  | ...       | ...        | ...                 |
+| ID  | Title                                      | Status    | Date       | Link                                   |
+|-----|--------------------------------------------|-----------|------------|----------------------------------------|
+| 001 | Devcontainer Environment and Docker Compose| accepted  | 2025-10-02 | [ADR-1](1-adr_devcontainer_docker.md)  |
+| 002 | Adoption of UV and Ruff                    | accepted  | 2025-10-02 | [ADR-2](2-adr_uv_ruff.md)              |
+| 003 | Initial Dependencies Selection             | accepted  | 2025-10-02 | [ADR-3](3-adr_initial_dependencies.md) |
+| 004 | Pydantic-Settings for Configuration        | accepted  | 2025-10-02 | [ADR-4](4-adr_pydantic_settings.md)     |
+| 005 | Logging Foundation                         | accepted  | 2025-10-02 | [ADR-5](5-adr_logging_foundation.md)    |
 
 ## References
 - [ADR Template](adr_template.md)
